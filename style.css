@@ -1,0 +1,380 @@
+
+header {
+    background: #fff;
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 30px 0;
+    box-shadow: 0px 0 18px rgb(55 66 59 / 8%);
+    position: fixed;
+    top: 0;
+     right: 0;
+    left: 0;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item a{
+  align-content: flex-end;
+  position: relative;
+  top: 0px;
+  bottom: 100px;
+  left: 700px;
+  right: 0px;
+    margin-left: 10px; 
+    border-radius: 3px;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 15px;
+    background: rgb(13, 88, 117);
+    font-weight: bold;
+    color: azure;
+    text-decoration: none;
+}
+#head{
+  color: rgb(74, 10, 126);
+  margin-top: 10px;
+  position: fixed;
+  top: 0px;
+  bottom:100px;
+  left:5px;
+  font-size: 50px;
+
+}
+
+#hero{
+  background: url(thisisengineering-raeng-64YrPKiguAE-unsplash.jpg) top center;
+  width:100%;
+  height:80vh;
+  background-size: cover;
+  position: relative;
+
+  
+  
+}
+#hero:before {
+  content: "";
+  background: rgba(19, 19, 19, 0.178);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .container {
+  padding-top: 72px;
+}
+
+@media (max-width: 992px) {
+  #hero .container {
+    padding-top: 62px;
+  }
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 56px;
+  color: rgba(245, 2, 2, 0.993);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  top: 250px;
+  left: 30px;
+}
+
+#hero h2 {
+  color: rgb(212, 248, 4);
+  margin: 10px 0 0 0;
+  font-size: 45px;
+  position: relative;
+  top: 250px;
+  left: 30px;
+}
+
+#hero .btn-get-started {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  border: 2px solid #fff;
+  color: #fff;
+  position: relative;
+  left: 30px;
+  top:230px;
+  background-color:rgba(9, 10, 0, 0.671) ;
+  
+}
+
+#hero .btn-get-started:hover {
+  background: #cdd3cf;
+  border: 2px solid #5fcf80;
+}
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: 100vh;
+  }
+}
+/*-- end of header--*/
+
+#don{
+
+  background:#fff;
+  background-repeat: no-repeat;
+  width:100%;
+  height:50vh;
+  background-size: cover;
+  position: relative;
+  top: 10px;
+}
+
+  #don .one{
+    width: 400px;
+    height: 80px;
+    align-content: stretch;
+    position: relative;
+    top: 50px;
+    bottom:0px;
+    left: 100px;
+    right: 0px;
+    margin: 10px; 
+    border-radius: 15px;
+    padding: 0px;
+    transition: 0.3s;
+    font-size: 50px;
+    background: url(Multicolored-Backgrounds-For-You.webp);
+    font-weight: bold;
+    color: #fff;
+    text-decoration:none ;
+    font-style:italic;
+
+
+   }
+
+#don .two{
+  width: 400px;
+    height: 80px;
+    align-content: stretch;
+    position: relative;
+    top: 50px;
+    bottom:0px;
+    left: 100px;
+    right: 0px;
+    margin: 10px; 
+    border-radius: 15px;
+    padding: 0px;
+    transition: 0.3s;
+    font-size: 50px;
+    background: url("Multicolored-Backgrounds-For-You (1).webp");
+    font-weight: bold;
+    color: rgb(235, 241, 236);
+    text-decoration:none ;
+    font-style:italic;
+
+
+}
+#don .three{
+  width: 400px;
+  height: 80px;
+  align-content: stretch;
+  position: relative;
+  top: 50px;
+  bottom:0px;
+  left: 100px;
+  right: 0px;
+  margin: 10px; 
+  border-radius: 15px;
+  padding: 0px;
+  transition: 0.3s;
+  font-size: 50px;
+  background: url("Multicolored-Backgrounds-For-You (1).webp");
+  font-weight: bold;
+  color: rgb(235, 241, 236);
+  text-decoration:none ;
+  font-style:italic;
+}
+#don .four{
+  width: 400px;
+  height: 80px;
+  align-content: stretch;
+  position: relative;
+  top: 50px;
+  bottom:0px;
+  left: 100px;
+  right: 0px;
+  margin: 10px; 
+  border-radius: 15px;
+  padding: 0px;
+  transition: 0.3s;
+  font-size: 50px;
+  background: url("Multicolored-Backgrounds-For-You (1).webp");
+  font-weight: bold;
+  color: rgb(235, 241, 236);
+  text-decoration:none ;
+  font-style:italic;
+
+}
+#don .five{
+  width: 400px;
+  height: 80px;
+  align-content: stretch;
+  position: relative;
+  top: 50px;
+  bottom:0px;
+  left: 100px;
+  right: 0px;
+  margin: 10px; 
+  border-radius: 15px;
+  padding: 0px;
+  transition: 0.3s;
+  font-size: 50px;
+  background: url("Multicolored-Backgrounds-For-You (1).webp");
+  font-weight: bold;
+  color: rgb(235, 241, 236);
+  text-decoration:none ;
+  font-style:italic;
+
+
+}
+#don .six{
+  width: 400px;
+  height: 80px;
+  align-content: stretch;
+  position: relative;
+  top: 50px;
+  bottom:0px;
+  left: 100px;
+  right: 0px;
+  margin: 10px; 
+  border-radius: 15px;
+  padding: 0px;
+  transition: 0.3s;
+  font-size: 50px;
+  background: url("Multicolored-Backgrounds-For-You (1).webp");
+  font-weight: bold;
+  color: rgb(235, 241, 236);
+  text-decoration:none ;
+  font-style:italic;
+
+
+}
+#don .seven{
+  width: 400px;
+  height: 80px;
+  align-content: stretch;
+  position: relative;
+  top: 50px;
+  bottom:0px;
+  left: 100px;
+  right: 0px;
+  margin: 10px; 
+  border-radius: 15px;
+  padding: 0px;
+  transition: 0.3s;
+  font-size: 50px;
+  background: url("Multicolored-Backgrounds-For-You (1).webp");
+  font-weight: bold;
+  color: rgb(235, 241, 236);
+  text-decoration:none ;
+  font-style:italic;
+
+}
+
+#don .eight{
+  width: 400px;
+  height: 80px;
+  align-content: stretch;
+  position: relative;
+  top: 50px;
+  bottom:0px;
+  left: 100px;
+  right: 0px;
+  margin: 10px; 
+  border-radius: 15px;
+  padding: 0px;
+  transition: 0.3s;
+  font-size: 50px;
+  background: url("Multicolored-Backgrounds-For-You (1).webp");
+  font-weight: bold;
+  color: rgb(235, 241, 236);
+  text-decoration:none ;
+  font-style:italic;
+
+}
+#don .nine{
+  width: 400px;
+  height: 80px;
+  align-content: stretch;
+  position: relative;
+  top: 50px;
+  bottom:0px;
+  left: 100px;
+  right: 0px;
+  margin: 10px; 
+  border-radius: 15px;
+  padding: 0px;
+  transition: 0.3s;
+  font-size: 50px;
+  background: url("Multicolored-Backgrounds-For-You (1).webp");
+  font-weight: bold;
+  color: rgb(235, 241, 236);
+  text-decoration:none ;
+  font-style:italic;
+
+
+}
+
+/*--footer*/
+
+#footer {
+  color: #37423b;
+  font-size: 14px;
+  background: #fff;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: #fff;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h1{
+  font-size: 22px;
+  margin: 0 0 30px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #2006b3;
+  font-weight: bold;
+}
+
+#footer .footer-top h1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
+}
+
